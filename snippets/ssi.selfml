@@ -1,0 +1,8 @@
+(name ssi)
+
+(trigger
+    (tab ssi))
+
+(only-in text.html.django)
+
+(snippet [{% ssi %{1} %{2="parsed"} %}])

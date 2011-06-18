@@ -1,0 +1,8 @@
+(name [templatetag: openvariable])
+
+(trigger
+    (tab [{{]))
+
+(only-in text.html.django)
+
+(snippet [{% templatetag openvariable %}])

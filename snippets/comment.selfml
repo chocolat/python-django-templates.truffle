@@ -1,0 +1,10 @@
+(name comment)
+
+(trigger
+    (tab comment))
+
+(only-in text.html.django)
+
+(snippet [{% comment %}
+	%{1}
+{% endcomment %}])

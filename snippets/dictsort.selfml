@@ -1,0 +1,8 @@
+(name dictsort)
+
+(trigger
+    (key [[shift][cmd]|]))
+
+(only-in text.html.django)
+
+(snippet [|dictsort:"%{1="arg"}"])

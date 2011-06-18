@@ -1,0 +1,8 @@
+(name [templatetag: openblock])
+
+(trigger
+    (tab [{%]))
+
+(only-in text.html.django)
+
+(snippet [{% templatetag openblock %}])

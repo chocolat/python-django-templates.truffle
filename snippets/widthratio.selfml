@@ -1,0 +1,8 @@
+(name widthratio)
+
+(trigger
+    (tab widthratio))
+
+(only-in text.html.django)
+
+(snippet [{% widthratio %{1="this_value"} %{2="max_value"} %{3="100"} %}])

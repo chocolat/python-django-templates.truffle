@@ -1,0 +1,8 @@
+(name fix_ampersands)
+
+(trigger
+    (key [[shift][cmd]|]))
+
+(only-in text.html.django)
+
+(snippet |fix_ampersands)

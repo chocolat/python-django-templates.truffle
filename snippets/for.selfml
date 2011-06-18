@@ -1,0 +1,10 @@
+(name for)
+
+(trigger
+    (tab for))
+
+(only-in text.html.django)
+
+(snippet [{% for %{1} in %{2} %}
+	%{3}
+{% endfor %}])

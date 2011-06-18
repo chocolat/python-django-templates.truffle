@@ -1,0 +1,8 @@
+(name extends)
+
+(trigger
+    (tab extends))
+
+(only-in text.html.django)
+
+(snippet [{% extends "%{1}" %}])

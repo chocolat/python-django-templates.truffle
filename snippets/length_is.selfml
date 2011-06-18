@@ -1,0 +1,8 @@
+(name length_is)
+
+(trigger
+    (key [[shift][cmd]|]))
+
+(only-in text.html.django)
+
+(snippet [|length_is:"%{1="arg"}"])

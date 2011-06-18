@@ -1,0 +1,8 @@
+(name slice)
+
+(trigger
+    (key [[shift][cmd]|]))
+
+(only-in text.html.django)
+
+(snippet [|slice:"%{1="arg"}"])

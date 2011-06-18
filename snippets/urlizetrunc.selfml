@@ -1,0 +1,8 @@
+(name urlizetrunc)
+
+(trigger
+    (key [[shift][cmd]|]))
+
+(only-in text.html.django)
+
+(snippet [|urlizetrunc:"%{1="arg"}"])

@@ -1,0 +1,8 @@
+(name removetags)
+
+(trigger
+    (key [[shift][cmd]|]))
+
+(only-in text.html.django)
+
+(snippet [|removetags:"%{1="arg"}"])

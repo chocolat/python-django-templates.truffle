@@ -1,0 +1,8 @@
+(name linenumbers)
+
+(trigger
+    (key [[shift][cmd]|]))
+
+(only-in text.html.django)
+
+(snippet |linenumbers)

@@ -1,0 +1,8 @@
+(name pluralize)
+
+(trigger
+    (key [[shift][cmd]|]))
+
+(only-in text.html.django)
+
+(snippet |pluralize)

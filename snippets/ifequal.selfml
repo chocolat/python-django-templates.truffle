@@ -1,0 +1,10 @@
+(name ifequal)
+
+(trigger
+    (tab ifequal))
+
+(only-in text.html.django)
+
+(snippet [{% ifequal %{1} %{2} %}
+	%{3}
+{% endifequal %}])

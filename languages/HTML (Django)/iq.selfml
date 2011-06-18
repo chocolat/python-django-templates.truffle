@@ -1,0 +1,15 @@
+(folding
+    (start [(<(?i:(head|table|tr|div|style|script|ul|ol|form|dl))\b.*?>|{% (block|comment|filter|for|if|ifchanged|ifequal|ifnotequal))])
+    (stop [(</(?i:(head|table|tr|div|style|script|ul|ol|form|dl))>|{% (endblock|endblocktrans|endcomment|endfilter|endfor|endif|endifchanged|endifequal|endifnotequal) %})]))
+
+(shell-variables
+    (TM_COMMENT_START [{# ])
+    (TM_COMMENT_END [ #}])
+    (TM_COMMENT_MODE line)
+    (TM_COMMENT_START_2 [{% comment %}])
+    (TM_COMMENT_END_2 [{% endcomment %}])
+    (TM_COMMENT_MODE_2 block))
+
+(comment.block [{# ] [ #}])
+
+(comment.block [{% comment %}] [{% endcomment %}])

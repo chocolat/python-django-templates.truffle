@@ -1,0 +1,8 @@
+(name trans)
+
+(trigger
+    (tab trans))
+
+(only-in text.html.django)
+
+(snippet [{% trans "%{1="string to translate"}" %}])

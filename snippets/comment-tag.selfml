@@ -1,0 +1,8 @@
+(name [Comment tag])
+
+(trigger
+    (key [[ctrl][shift]#]))
+
+(only-in text.html.django)
+
+(snippet [{# %{1} #}])

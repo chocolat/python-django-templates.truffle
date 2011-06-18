@@ -1,0 +1,8 @@
+(name phone2numeric)
+
+(trigger
+    (key [[shift][cmd]|]))
+
+(only-in text.html.django)
+
+(snippet |phone2numeric)

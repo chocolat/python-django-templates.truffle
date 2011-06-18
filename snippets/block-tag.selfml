@@ -1,0 +1,8 @@
+(name [Block tag])
+
+(trigger
+    (key [[ctrl][shift]%]))
+
+(only-in text.html.django)
+
+(snippet [{% %{1} %}])

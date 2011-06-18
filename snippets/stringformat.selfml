@@ -1,0 +1,8 @@
+(name stringformat)
+
+(trigger
+    (key [[shift][cmd]|]))
+
+(only-in text.html.django)
+
+(snippet [|stringformat:"%{1="arg"}"])

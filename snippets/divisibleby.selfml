@@ -1,0 +1,8 @@
+(name divisibleby)
+
+(trigger
+    (key [[shift][cmd]|]))
+
+(only-in text.html.django)
+
+(snippet [|divisibleby:"%{1="arg"}"])

@@ -1,0 +1,8 @@
+(name center)
+
+(trigger
+    (key [[shift][cmd]|]))
+
+(only-in text.html.django)
+
+(snippet [|center:"%{1="arg"}"])

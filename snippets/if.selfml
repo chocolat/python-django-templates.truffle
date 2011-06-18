@@ -1,0 +1,10 @@
+(name if)
+
+(trigger
+    (tab if))
+
+(only-in text.html.django)
+
+(snippet [{% if %{1} %}
+	%{2}
+{% endif %}])

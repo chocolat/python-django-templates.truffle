@@ -1,0 +1,8 @@
+(name timesince)
+
+(trigger
+    (key [[shift][cmd]|]))
+
+(only-in text.html.django)
+
+(snippet |timesince)

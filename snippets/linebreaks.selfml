@@ -1,0 +1,8 @@
+(name linebreaks)
+
+(trigger
+    (key [[shift][cmd]|]))
+
+(only-in text.html.django)
+
+(snippet |linebreaks)

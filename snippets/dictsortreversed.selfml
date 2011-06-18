@@ -1,0 +1,8 @@
+(name dictsortreversed)
+
+(trigger
+    (key [[shift][cmd]|]))
+
+(only-in text.html.django)
+
+(snippet [|dictsortreversed:"%{1="arg"}"])

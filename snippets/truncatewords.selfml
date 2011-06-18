@@ -1,0 +1,8 @@
+(name truncatewords)
+
+(trigger
+    (key [[shift][cmd]|]))
+
+(only-in text.html.django)
+
+(snippet [|truncatewords:"%{1="arg"}"])

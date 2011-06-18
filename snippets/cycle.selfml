@@ -1,0 +1,8 @@
+(name cycle)
+
+(trigger
+    (tab cycle))
+
+(only-in text.html.django)
+
+(snippet [{% cycle %{1} as %{2} %}])

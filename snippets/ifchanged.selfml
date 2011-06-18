@@ -1,0 +1,8 @@
+(name ifchanged)
+
+(trigger
+    (tab ifchanged))
+
+(only-in text.html.django)
+
+(snippet [{% ifchanged %}%{1}{% endifchanged %}])

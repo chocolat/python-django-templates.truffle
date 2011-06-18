@@ -1,0 +1,8 @@
+(name debug)
+
+(trigger
+    (tab debug))
+
+(only-in text.html.django)
+
+(snippet [{% debug %}])

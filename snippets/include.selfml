@@ -1,0 +1,8 @@
+(name include)
+
+(trigger
+    (tab include))
+
+(only-in text.html.django)
+
+(snippet [{% include %{1="\"%{2}\""} %}])

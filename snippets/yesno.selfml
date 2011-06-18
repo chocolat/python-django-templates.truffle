@@ -1,0 +1,8 @@
+(name yesno)
+
+(trigger
+    (key [[shift][cmd]|]))
+
+(only-in text.html.django)
+
+(snippet [|yesno:"%{1="arg"}"])

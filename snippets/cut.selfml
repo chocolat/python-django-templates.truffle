@@ -1,0 +1,8 @@
+(name cut)
+
+(trigger
+    (key [[shift][cmd]|]))
+
+(only-in text.html.django)
+
+(snippet [|cut:"%{1="arg"}"])

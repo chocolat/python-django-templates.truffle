@@ -1,0 +1,8 @@
+(name now)
+
+(trigger
+    (tab now))
+
+(only-in text.html.django)
+
+(snippet [{% now "%{1}" %}])

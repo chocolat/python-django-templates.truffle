@@ -1,0 +1,8 @@
+(name ljust)
+
+(trigger
+    (key [[shift][cmd]|]))
+
+(only-in text.html.django)
+
+(snippet [|ljust:"%{1="arg"}"])

@@ -1,0 +1,8 @@
+(name firstof)
+
+(trigger
+    (tab firstof))
+
+(only-in text.html.django)
+
+(snippet [{% firstof %{1} %}])

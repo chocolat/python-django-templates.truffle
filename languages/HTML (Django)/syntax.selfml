@@ -1,0 +1,38 @@
+(root text.html.django
+    (include text.html.basic)
+    (zone comment.block.django.template
+        (start [{% comment %}])
+        (end [{% endcomment %}]))
+    (zone comment.line.django.template
+        (start [{#])
+        (end [#}]))
+    (zone variable.other.django.template
+        (start [{{])
+        (end [}}]))
+    (zone meta.scope.django.template.tag
+        (start
+            (regex [({%)]
+                (1 entity.other.django.tagbraces)))
+        (end
+            (regex [(%})]
+                (1 entity.other.django.tagbraces)))
+        (subzones
+            (zone keyword.control.django.template
+                (match
+                    (list autoescape endautoescape block endblock blocktrans endblocktrans plural debug extends filter firstof for endfor if include else endif ifchanged endifchanged ifequal endifequal ifnotequal endifnotequal load now regroup ssi spaceless templatetag widthratio)
+                    (boundary.both)))
+            (zone keyword.operator.django.template
+                (match
+                    (list and or not in by as)
+                    (boundary.both)))
+            (zone support.function.filter.django
+                (match
+                    (regex [\|(add|addslashes|capfirst|center|cut|date|default|default_if_none|dictsort|dictsortreversed|divisibleby|escape|filesizeformat|first|fix_ampersands|floatformat|get_digit|join|length|length_is|linebreaks|linebreaksbr|linenumbers|ljust|lower|make_list|phone2numeric|pluralize|pprint|random|removetags|rjust|safe|slice|slugify|stringformat|striptags|time|timesince|title|truncatewords|unordered_list|upper|urlencode|urlize|urlizetrunc|wordcount|wordwrap|yesno)\b])))
+            (zone string.other.django.template.tag
+                (start
+                    (regex '|"))
+                (end
+                    (regex '|")))
+            (zone string.unquoted.django.template.tag
+                (match
+                    (regex [[a-zA-Z_]+]))))))

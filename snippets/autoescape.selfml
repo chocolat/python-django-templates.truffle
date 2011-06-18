@@ -1,0 +1,10 @@
+(name autoescape)
+
+(trigger
+    (tab autoescape))
+
+(only-in text.html.django)
+
+(snippet [{% autoescape %{1="off"} %}
+	%{2}
+{% endautoescape %}])

@@ -1,0 +1,8 @@
+(name rjust)
+
+(trigger
+    (key [[shift][cmd]|]))
+
+(only-in text.html.django)
+
+(snippet [|rjust:"%{1="arg"}"])

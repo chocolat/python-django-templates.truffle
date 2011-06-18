@@ -1,0 +1,8 @@
+(name default)
+
+(trigger
+    (key [[shift][cmd]|]))
+
+(only-in text.html.django)
+
+(snippet [|default:"%{1="arg"}"])

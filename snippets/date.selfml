@@ -1,0 +1,8 @@
+(name date)
+
+(trigger
+    (key [[shift][cmd]|]))
+
+(only-in text.html.django)
+
+(snippet [|date:"%{1="arg"}"])

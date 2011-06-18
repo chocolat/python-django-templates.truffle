@@ -1,0 +1,8 @@
+(name unordered_list)
+
+(trigger
+    (key [[shift][cmd]|]))
+
+(only-in text.html.django)
+
+(snippet |unordered_list)

@@ -1,0 +1,8 @@
+(name get_digit)
+
+(trigger
+    (key [[shift][cmd]|]))
+
+(only-in text.html.django)
+
+(snippet [|get_digit:"%{1="arg"}"])
