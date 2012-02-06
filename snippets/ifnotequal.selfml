@@ -5,6 +5,4 @@
 
 (only-in text.html.django)
 
-(snippet [{% ifnotequal %{1} %{2} %}
-	%{3}
-{% endifnotequal %}])
+(snippet [{% ifnotequal %{1} %{2} %}%{0}{% endifnotequal %}])

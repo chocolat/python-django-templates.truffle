@@ -1,0 +1,8 @@
+(name else)
+
+(trigger
+    (tab else))
+
+(only-in text.html.django)
+
+(snippet [{% else %}])

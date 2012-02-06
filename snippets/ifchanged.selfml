@@ -5,4 +5,4 @@
 
 (only-in text.html.django)
 
-(snippet [{% ifchanged %}%{1}{% endifchanged %}])
+(snippet [{% ifchanged %}%{0}{% endifchanged %}])

@@ -5,4 +5,4 @@
 
 (only-in text.html.django)
 
-(snippet [{% include %{1="\"%{2}\""} %}])
+(snippet [{% include "%{1}" %}])

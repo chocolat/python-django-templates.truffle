@@ -5,4 +5,4 @@
 
 (only-in text.html.django)
 
-(snippet [{% trans "%{1="string to translate"}" %}])
+(snippet [{% trans "%{1="%{TM_SELECTED_TEXT="string to translate"}"}" %}])

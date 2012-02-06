@@ -5,6 +5,4 @@
 
 (only-in text.html.django)
 
-(snippet [{% block %{1} %}
-	%{2}
-{% endblock %}])
+(snippet [{% block %{1} %}%{2}{% endblock %{1} %}])

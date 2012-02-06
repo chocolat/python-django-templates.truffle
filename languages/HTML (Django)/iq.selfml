@@ -1,6 +1,6 @@
 (folding
-    (start [(<(?i:(head|table|tr|div|style|script|ul|ol|form|dl))\b.*?>|{% (block|comment|filter|for|if|ifchanged|ifequal|ifnotequal))])
-    (stop [(</(?i:(head|table|tr|div|style|script|ul|ol|form|dl))>|{% (endblock|endblocktrans|endcomment|endfilter|endfor|endif|endifchanged|endifequal|endifnotequal) %})]))
+    (start [(<(?i:a|head|body|table|thead|tbody|small|tfoot|tr|div|header|article|section|footer|aside|nav|select|fieldset|style|script|ul|ol|li|form|dl|p)\b.*?>|{% (block|comment|filter|for|if|ifchanged|ifequal|ifnotequal))])
+    (stop [(</(?i:a|head|body|table|thead|tbody|small|tfoot|tr|div|header|article|section|footer|aside|nav|select|fieldset|style|script|ul|ol|li|form|dl|p)\b.*?>|{% (endblock|endblocktrans|endcomment|endfilter|endfor|endif|endifchanged|endifequal|endifnotequal) %})]))
 
 (shell-variables
     (TM_COMMENT_START [{# ])

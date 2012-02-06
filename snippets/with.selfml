@@ -5,4 +5,4 @@
 
 (only-in text.html.django)
 
-(snippet [{% with %{1="var"} as %{2="name"} %}])
+(snippet [{% with %{1="var"} as %{2="name"} %}{{ %{3="%{2}"} }}{% endwith %}])

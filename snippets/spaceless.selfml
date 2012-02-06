@@ -1,0 +1,8 @@
+(name spaceless)
+
+(trigger
+    (tab spaceless))
+
+(only-in text.html.django)
+
+(snippet [{% spaceless %}%{0}{% endspaceless %}])

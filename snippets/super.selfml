@@ -1,0 +1,8 @@
+(name super)
+
+(trigger
+    (tab super))
+
+(only-in text.html.django)
+
+(snippet [{{ block.super }}])
